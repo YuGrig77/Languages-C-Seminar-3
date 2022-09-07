@@ -28,7 +28,7 @@ if (count == x)
 
 // bool res = int.TryParse(Console.ReadLine(), out int n);
 
-// if (!res || n <= 0)
+///if (!res || n <= 0)
 // {
 //     Console.WriteLine("Ошибка ввода");
 //     return;
