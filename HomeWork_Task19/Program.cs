@@ -6,9 +6,7 @@
 //23432 -> да
 
 Console.Clear();
-
 Mark1:
-
 Console.Write("Please enter five(5) digits number: ");
 int num = int.Parse(Console.ReadLine());
 
@@ -23,11 +21,9 @@ if (10000 <= num && num < 100000)
         Console.WriteLine($"{num} -> No");
     }
 }
-else
-{
-    Console.WriteLine($"Pls enter correct number");
-    goto Mark1;//goto использовать не желательно, правильнее использовать while(true), но у меня пока не получается((
-}
+Console.WriteLine($"Pls enter correct number");
+goto Mark1;//goto использовать не желательно, правильнее использовать while(true), но у меня пока не получается((
+
 
 // ++OR++
 
