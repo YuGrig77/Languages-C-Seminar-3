@@ -1,4 +1,4 @@
-using System.ComponenentModel.DataAnnotation;
+using System.ComponentModel.DataAnnotations;
 
 namespace RazorPagesPizza.Models;
 
@@ -12,7 +12,7 @@ public class Pizza
     public bool IsGlutenFree { get; set; }
 
     [Range(0.01, 999.99)]
-    public decimals Price { get; set; }
+    public decimal Price { get; set; }
 }
 
 public enum PizzaSize { Small, Medium, Large }

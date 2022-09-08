@@ -21,9 +21,11 @@ if (10000 <= num && num < 100000)
         Console.WriteLine($"{num} -> No");
     }
 }
-Console.WriteLine($"Pls enter correct number");
-goto Mark1;
-
+else 
+{
+    Console.WriteLine($"Pls enter correct number");
+    goto Mark1;
+}
 
 // ++OR++
 
@@ -31,13 +33,15 @@ goto Mark1;
 // string? num = Console.ReadLine();
 
 // void CheckingNumber(string num){
-//   if (num[0]==num[4] || num[1]==num[3]){
+//   if (num[0]==num[4] || num[1]==num[3])
+//   {
 //     Console.WriteLine($"{num} -> Yes");
 //   }
 //   else Console.WriteLine($"{num} -> No");
 // }
 
-// if (num!.Length == 5){
+// if (num!.Length == 5)
+// {
 //   CheckingNumber(num);
 // }
 // else Console.WriteLine($"Pls enter correct number");
