@@ -21,27 +21,8 @@ if (10000 <= num && num < 100000)
         Console.WriteLine($"{num} -> No");
     }
 }
-else 
+else
 {
     Console.WriteLine($"Pls enter correct number");
     goto Mark1;
 }
-
-// ++OR++
-
-// Console.Write("Enter five(5) digits number: ");
-// string? num = Console.ReadLine();
-
-// void CheckingNumber(string num){
-//   if (num[0]==num[4] || num[1]==num[3])
-//   {
-//     Console.WriteLine($"{num} -> Yes");
-//   }
-//   else Console.WriteLine($"{num} -> No");
-// }
-
-// if (num!.Length == 5)
-// {
-//   CheckingNumber(num);
-// }
-// else Console.WriteLine($"Pls enter correct number");

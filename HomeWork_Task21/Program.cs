@@ -21,7 +21,7 @@ Console.WriteLine($"Length of piece AB where A({piecedbl[0]},{piecedbl[1]},{piec
 // Console.Write("Введите координаты точки B ");
 // string[] masStr = Console.ReadLine().Split(' ');
 // double[] masSdbl = new double [4];
-// for (int index = 0; index < masStr.Length; index++)      // цикл для заполнения пустого целочисленного массива
+// for (int index = 0; index < masStr.Length; index++) // цикл для заполнения пустого целочисленного массива
 //     masSdbl [index] = Convert.ToInt32(masStr[index]);
 // double res = Math.Sqrt(Math.Pow(masSdbl[0] - masSdbl[2], 2)+ Math.Pow(masSdbl[1] - masSdbl[3], 2));
 // Console.WriteLine($"Расстояние между точками{res}");

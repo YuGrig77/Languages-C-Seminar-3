@@ -11,19 +11,19 @@ bool result = int.TryParse(Console.ReadLine(), out int n);
 
 if (!result || n <= 0)
 {
-     Console.WriteLine("Wrong entry! Pls recheck.");
-     goto Mark1;
+    Console.WriteLine("Wrong entry! Pls recheck.");
+    goto Mark1;
 }
 
- Console.Write($"{n} -> ");
+Console.Write($"{n} -> ");
 
- int tmp = 1;
- for (int i = 0; i < n; i++)
- {
-     if (tmp < n)
-     Console.Write($"{Math.Pow(tmp, 3)}, ");
-     tmp++;
-     if (tmp == n) Console.Write($"{Math.Pow(tmp, 3)}");
- }
- 
- 
+int tmp = 1;
+for (int i = 0; i < n; i++)
+{
+    if (tmp < n)
+        Console.Write($"{Math.Pow(tmp, 3)}, ");
+    tmp++;
+    if (tmp == n) Console.Write($"{Math.Pow(tmp, 3)}");
+}
+
+
